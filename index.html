@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Bank</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ea205f5b6e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="first-section">
+        <div class="top-text-container">
+            <p>Welcome To Your Favourite Research Bank</p>
+        </div>
+
+        <div class="add-button-container">
+            <button id="add-button" type="button">Add Research Item</button>
+        </div>
+    </div>
+
+    <div class="item-section"  id="item-section">
+        <!-- <div class="research-item">
+            <div class="title-and-delete-container">
+                <a href="#">Website For Nasa Data</a>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="description-of-item">
+                <p>This website is for researching on UX design principles. I love the way research is done on the website </p>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <div class="close-icon-container">
+                <i class="fa-solid fa-x" id="close-icon"></i>
+            </div>
+
+            <div class="modal-title-container">
+                <h3>Add Research Item</h3>
+            </div>
+
+            <div class="modal-form">
+                <form id="form">
+                    <div class="input-group">
+                        <label for="name-of-item">Name of Item</label>
+                        <input type="text" name="name-of-item" id="name-of-item" placeholder="E.g Data Analysis Website For Engineers">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="link-of-item">Link To Item</label>
+                        <input type="text" name="link-of-item" id="link-of-item" placeholder="E.g www.link.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="description-of-item">description of Item</label>
+                        <textarea name="description-of-item" id="description-of-item" placeholder="Enter description"></textarea>
+                    </div>
+
+                    <div class="form-button-container">
+                        <button type="submit" id="submit-form" class="form-button">Add Research Item</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>
